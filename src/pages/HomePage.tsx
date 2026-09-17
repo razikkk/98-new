@@ -1,7 +1,7 @@
 import React from 'react';
 import { Hero } from '../components/Hero';
 import { Metrics } from '../components/Metrics';
-import { Work } from '../components/Work';
+// import { Work } from '../components/Work';
 import { Services } from '../components/Services';
 import { Process } from '../components/Process';
 import { About } from '../components/About';

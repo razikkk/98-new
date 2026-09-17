@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowUpRight, ArrowDown, Check } from 'lucide-react';
+import { ArrowUpRight,  Check } from 'lucide-react';
 import { HeroConsole } from './HeroConsole';
 
 interface HeroProps {
@@ -8,12 +8,12 @@ interface HeroProps {
 }
 
 export const Hero: React.FC<HeroProps> = ({ onOpenCalendly }) => {
-  const scrollToWork = () => {
-    const el = document.getElementById('work');
-    if (el) {
-      el.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
+  // const scrollToWork = () => {
+  //   const el = document.getElementById('work');
+  //   if (el) {
+  //     el.scrollIntoView({ behavior: 'smooth' });
+  //   }
+  // };
 
   return (
     <section className="relative pt-28 sm:pt-36 lg:pt-40 pb-16 sm:pb-24 px-4 sm:px-8 border-b border-studio-border overflow-hidden">
